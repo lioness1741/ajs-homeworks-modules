@@ -1,0 +1,37 @@
+{
+  "name": "ajs-homeworks-modules",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  
+  "scripts": {
+    "start": "live-server dist",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lioness1741/ajs-homeworks-modules.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lioness1741/ajs-homeworks-modules/issues"
+  },
+  "homepage": "https://github.com/lioness1741/ajs-homeworks-modules#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.22.5",
+    "@babel/core": "^7.22.5",
+    "@babel/preset-env": "^7.22.5",
+    "babel-loader": "^9.1.2",
+    "eslint": "^8.43.0",
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2",
+    "webpack": "^5.87.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "core-js": "^3.31.0"
+  }
+}
